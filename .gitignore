@@ -1,1 +1,7 @@
 *.mp4
+# remove from git hub
+# nandan@nv:~/web-dev$ git ignore pushed files
+# nandan@nv:~/web-dev$ git rm -r --cached  .
+# nandan@nv:~/web-dev$ git add .
+# nandan@nv:~/web-dev$ git commit -m "removing video file"
+# nandan@nv:~/web-dev$ git push -u origin master
