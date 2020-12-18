@@ -1,0 +1,103 @@
+<!-- payment_form  -->
+<!-- when u submit this form after filling all the data when u check the url u will see all data values there
+so we won't use this for making payments as it is not secured  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment_Form</title>
+    <link rel="stylesheet" href="./css/style.css"></link>
+    
+</head>
+<body>
+    <header>
+        <h2><b><i><u><p>SBI-CARDS</p></u></i></b></h2>
+    </header>
+    <marquee behavior="" direction="RIGHT" href="#" scrollamount="100">GET A CREDIT CARD WITH 10 MINUTES </marquee>
+    <marquee behavior="" direction="LEFT">IS YOUR CREDIT SCORE ABOVE 450? GET LOAN INSTANTLY </marquee>
+    <hr>
+    <br>
+     <!-- ad -->
+     <p>ad</p>
+     <img src="../Pictures/Screenshot from 2020-12-15 18-16-56.png" alt="PICTURE NOT available">
+     <center><big><a href="./cp.html" target="_blank" rel="noopener noreferrer">click on the above link to master cp</a></big></center>
+     <br>
+     <hr>
+     <br>
+
+    <a href="#"><b><i> <u> PAYMENT-FORM  |</u></i></b></a><a href="#"><b><i><u>  |TRACK-PAYMENT </u></i></b></a>
+    <br>
+    <hr>
+    <br>
+    <!-- inside id you write url of your server -->
+
+   
+
+    <!-- <img src="" alt="" target="_blank"> -->
+    <form action="payment-form">
+        <h2><b>User-Details</b></h2>
+        <hr>
+        <br>
+        <h5><p>Mandatory fields are denoted by *</p></h5>
+        <legend><p>Name:* <input type="name" id="name" required  > </p></legend>
+        <!-- required is an attributed which says it's madatory to fill this -->
+        <p>Male: <input type="radio" name="gender" id="gender"> Female <input type="radio" name="gender" id="gender"> </p>
+        <legend><p>Address: <textarea name="address" id="address" cols="30" rows="10"  ></textarea> </p></legend>
+        <!-- looks ugly can be changed only using cascading style sheetes -->
+        <p>Email:* <input type="email" name="mail" id="mail" required> </p>
+        <p>Pincode:* <input type="number" name="pincode" id="pincode" required> </p>
+        <br>
+        <hr>
+        <br>
+        <h2><b>Card-Details</b></h2>
+        <br>
+        <hr>
+        <br>
+        <p>Card Type:* 
+            <select required>
+                <option value="">--select here--</option>
+                <!-- this element ensures there is no default selection  -->
+                <option value="visa">Visa</option>
+                <option value="rupay">Pupay</option>
+                <option value="mastercard">MasterCard</option>
+
+            </select>
+        </p>
+        <p>Card Number:* <input type="number " required min="16" max="16"> </p>
+        <p>Confirm Card Number:* <input type="password" name="Confirm" id="Confirm" max="16" required> </p>
+
+        <p>Expiration Date:* <input type="date" name="ex date" id="ex date" required> </p>
+        <p>CVV:* <input type="password" name="cvv" id="cvv" required> </p>
+        <input type="submit" value="Pay Now">
+
+            <br>
+            <br>
+            <br>
+            <hr>
+            <hr>
+            <br>
+            <br>
+            <br>
+
+            <footer><a href="#" >T&C</a><a href="#">| RECOVERY</a><a href="#">| CONTACT</a>  
+                <br>
+                </footer>
+        <!-- should use input type submit nor button  -->
+        <br>
+        <hr>
+        <hr>
+        <hr>
+
+    </form>
+
+   
+</body>
+</html>
+
+
+
+
+
+<!-- A B C D E F G H I J K L M N O P  -->
